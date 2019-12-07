@@ -7,6 +7,7 @@ all: check-env
 	sed -i 's/__content__/$(subst /,\/,$(abspath content))/g' workshop_item.vdf
 	sed -i 's/__preview__/$(subst /,\/,$(abspath preview/preview.png))/g' workshop_item.vdf
 	steamcmd +login ${STEAMLOGIN} ${STEAMPASSWORD} +workshop_build_item $(abspath workshop_item.vdf) +quit
+	git checkout workshop_item.vdf
 
 check-env:
 ifndef STEAMLOGIN
