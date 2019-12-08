@@ -7,5 +7,5 @@
     "visibility"       "0"
     "title"            "The Wicked Net - Character Soundpack"
     "description"      "Contains Character Sounds extracted from Wicked Quake 1"
-    "changenote"       "Converted Stereo sounds to Mono"
+    "changenote"       "Fixes sound cutoffs"
 }
