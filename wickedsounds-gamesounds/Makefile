@@ -3,7 +3,7 @@
 
 all: check-env
 	[ -d content ] || mkdir content
-	zip -r content/wickedsounds-characters.pk3 sound/
+	zip -r content/wickedsounds-gamesounds.pk3 sound/
 	sed -i 's/__content__/$(subst /,\/,$(abspath content))/g' workshop_item.vdf
 	sed -i 's/__preview__/$(subst /,\/,$(abspath preview/preview.png))/g' workshop_item.vdf
 	steamcmd +login ${STEAMLOGIN} ${STEAMPASSWORD} +workshop_build_item $(abspath workshop_item.vdf) +quit
