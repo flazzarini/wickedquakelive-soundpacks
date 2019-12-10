@@ -7,5 +7,5 @@
     "visibility"       "0"
     "title"            "The Wicked Net - Shout Sounds"
     "description"      "Contains shout sound which can be used with https://github.com/flazzarini/wicked-minqlx-plugins/blob/master/wickedshout.py"
-    "changenote"       "Initial Release"
+    "changenote"       "Converted ogg files to mono"
 }
