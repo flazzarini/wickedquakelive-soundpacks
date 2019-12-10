@@ -1,0 +1,11 @@
+"workshopitem"
+{
+    "appid"            "282440"
+    "publishedfileid"  "0"
+    "contentfolder"    "__content__"
+    "previewfile"      "__preview__"
+    "visibility"       "0"
+    "title"            "The Wicked Net - Shout Sounds"
+    "description"      "Contains shout sound which can be used with https://github.com/flazzarini/wicked-minqlx-plugins/blob/master/wickedshout.py"
+    "changenote"       "Initial Release"
+}
